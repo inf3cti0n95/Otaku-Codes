@@ -1,0 +1,17 @@
+name: Otaku Codes
+description: Life of an Otaku, coding its way, to become No. 1
+meta_description: "Life of an Otaku, coding its way, to become No. 1"
+
+markdown: kramdown
+highlighter: pygments
+logo: false
+paginate: 15
+baseurl: /
+domain_name: 'http://otaku.codes'
+google_analytics: 'UA-97043938-1'
+gems: [jekyll-paginate]
+
+# Details for the RSS feed generator
+url:            'http://otaku.codes'
+author:         'Viraj "Inf3cti0n95" Trivedi'
+authordesc: I am an Otaku.
