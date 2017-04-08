@@ -8,7 +8,7 @@ categories: Introduction
 
 Hello Everyone, Konnichiwa !!
 
-As this it the Introductory post, I want to keep it short and sweet. I wanted to start my own blog from ages. But didn't make it through till now, when I found this awesome domain Otaku.Codes which reflects my personality *#Otaku*.
+As an Introductory post, I want to keep it short and sweet. I wanted to start my own blog from ages. But didn't make it through till now, when I found this awesome domain Otaku.Codes which reflects my personality *#Otaku*.
 
 At the time of writing this post, I am about to attend my last day (College Farewell) at College (Undergrad). Hoping to start out something. Cool, Revolutionizing, Something that would 
 
