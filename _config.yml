@@ -3,7 +3,7 @@ description: Life of an Otaku, coding its way, to become No. 1
 meta_description: "Life of an Otaku, coding its way, to become No. 1"
 
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 logo: false
 paginate: 15
 baseurl: /
