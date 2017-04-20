@@ -6,6 +6,8 @@ categories: Introduction
 hero_image: /assets/images/konnichiwa.png
 ---
 
+![Konnichiwa][/assets/images/konnichiwa.png]
+
 
 Hello Everyone, Konnichiwa !!
 
