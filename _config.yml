@@ -2,6 +2,8 @@ name: Otaku Codes
 description: Life of an Otaku, coding its way, to become No. 1
 meta_description: "Life of an Otaku, coding its way, to become No. 1"
 
+favicon: /assets/images/otaku.png
+
 markdown: kramdown
 highlighter: rouge
 logo: false
@@ -10,7 +12,6 @@ baseurl: /
 domain_name: 'http://otaku.codes'
 google_analytics: 'UA-97043938-1'
 gems: [jekyll-paginate]
-favicon: /assets/images/otaku.png
 
 # Details for the RSS feed generator
 url:            'http://otaku.codes'

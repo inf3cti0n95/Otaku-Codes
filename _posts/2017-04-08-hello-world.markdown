@@ -3,6 +3,7 @@ layout: post
 title:  "Hello World!"
 date:   2017-04-08 13:22:00 +0530
 categories: Introduction
+hero_image: /assets/image/konnichiwa.png
 ---
 
 
