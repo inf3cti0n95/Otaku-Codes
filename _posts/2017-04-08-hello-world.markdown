@@ -2,8 +2,9 @@
 layout: post
 title:  "Hello World!"
 date:   2017-04-08 13:22:00 +0530
-categories: Introduction
+categories: [Introduction]
 hero_image: /assets/images/konnichiwa.png
+excerpt: "Introduction of this Otaku and his Otaku Blog, Otaku.Codes"
 ---
 
 ![Konnichiwa](/assets/images/Konnichiwa-1.jpg)
@@ -39,3 +40,7 @@ So, an Otaku person is a Geek, Nerd always into Manga, Anime, Computers and Othe
 #### Reason behind this Blog.
 
 Nothing fancy, just to share My Experiences (*I ain't an Old Guy, I am just 21 years old.*) and My silly coding mistakes with everyone, and share my journey to become **the King of Coders** *#LuffyOnePiece* and Obviously to **Make the World a Better Place**.
+
+#### TL;DR
+
+How big of an Otaku, Awesome, Lazy and Crazy I am.
