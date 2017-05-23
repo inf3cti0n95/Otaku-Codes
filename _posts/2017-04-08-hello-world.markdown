@@ -4,7 +4,7 @@ title:  "Hello World!"
 date:   2017-04-08 13:22:00 +0530
 categories: [Introduction]
 hero_image: /assets/images/konnichiwa.png
-excerpt: "Introduction of this Otaku and his Otaku Blog, Otaku.Codes"
+excerpt: "Introduction of this Otaku (Myself) and his Otaku Blog, Otaku.Codes"
 ---
 
 ![Konnichiwa](/assets/images/Konnichiwa-1.jpg)
