@@ -15,7 +15,7 @@ There has been a lot of new things coming now a days. Since the rise of the Java
 
 While Google leading the Development of the Web by making it more secure, performant and immersive. [Alex Russell @slightlyoff](https://github.com/slightlyoff) from Google introduced the term Progressive Web App for the first time in his blog post [ Progressive Web Apps: Escaping Tabs Without Losing Our Soul ](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/) and defined what was needed for a Web App to evolve, discussing with [Frances Berriman @phae](https://github.com/phae) in the year 2015.
 
-And that's when I first heard about this thing called Progressive Web App. Since the introduction of AJAX around year 2000, there had been many new technologies introduced to make the best of Web. Such as Adobe AIR, Microsoft Sliverlight and more. But there were not on par with, how AJAX changed the way developers constructed their Web Apps. Until almost 15 years later with the introduction of [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker).
+And that's when I first heard about this thing called Progressive Web App. Since the introduction of AJAX around year 2000, there had been many new technologies introduced to make the best of Web. Such as Adobe AIR, Microsoft Sliverlight and more. But they were not on par with, how AJAX changed the way developers constructed their Web Apps. Until almost 15 years later with the introduction of [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker).
 
 #### So, What is Progressive Web App ?
 
@@ -32,7 +32,7 @@ More precisely,
 
 So in a nutshell, <span style="background-color: #d6ebf2">Progressive Web Apps are Web Apps on steroids</span>, Supercharged to give end users a Native App like experience.
 
-Progressive Web Apps are nothing new or out of the box thing, but the are quantiessentially Web Apps with enhanced User Expericence leveraging the power of latest web technologies like [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker), [Web App Manifests](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) etc.
+Progressive Web Apps are nothing new or out of the box thing, but they are quintessentially Web Apps with enhanced User Expericence leveraging the power of latest web technologies like [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker), [Web App Manifests](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) etc.
 
 #### Is my Web App, a Progressive Web App ?
 
