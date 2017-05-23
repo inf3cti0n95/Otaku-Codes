@@ -61,6 +61,6 @@ I have roughly broken down the Features you ought to have to call your Web App t
 
 #### TL;DR
 
-How awesome Progressive Web Apps are and why I'll be talking about it a lot more in feature.
+How awesome Progressive Web Apps are and why I'll be talking a lot about it in feature.
 
 
