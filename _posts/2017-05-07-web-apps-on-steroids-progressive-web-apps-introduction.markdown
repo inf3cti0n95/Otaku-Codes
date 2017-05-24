@@ -35,7 +35,7 @@ More precisely,
 
 So in a nutshell, <span style="background-color: #d6ebf2">Progressive Web Apps are Web Apps on steroids</span>, Supercharged to give end users a Native App like experience.
 
-Progressive Web Apps are nothing new or out of the box thing, but they are quintessentially Web Apps with enhanced User Expericence leveraging the power of latest web technologies like [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker), [Web App Manifests](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) etc.
+Progressive Web Apps are nothing new or out of the box thing, but they are quintessentially Web Apps with enhanced User Experience leveraging the power of latest web technologies like [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker), [Web App Manifests](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) etc.
 
 #### Is my Web App, a Progressive Web App ?
 
