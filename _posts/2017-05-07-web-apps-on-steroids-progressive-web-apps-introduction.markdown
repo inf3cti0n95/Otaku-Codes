@@ -5,7 +5,6 @@ date:   2017-05-23 12:01:00 +0530
 categories: [Frontend, Progressive-Web-Apps]
 hero_image: /assets/images/pwa.png
 excerpt: "Introduction to Web Apps on Steroids, Progressive Web Apps"
-permalink: /:categories/:title.html
 
 ---
 
