@@ -5,6 +5,8 @@ date:   2017-04-08 13:22:00 +0530
 categories: [Introduction]
 hero_image: /assets/images/konnichiwa.png
 excerpt: "Introduction of this Otaku (Myself) and his Otaku Blog, Otaku.Codes"
+permalink: /:categories/:title.html
+
 ---
 
 ![Konnichiwa](/assets/images/Konnichiwa-1.jpg)
