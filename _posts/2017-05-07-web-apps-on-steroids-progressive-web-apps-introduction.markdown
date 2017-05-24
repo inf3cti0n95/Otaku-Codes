@@ -35,7 +35,7 @@ More precisely,
 
 So in a nutshell, <span style="background-color: #d6ebf2">Progressive Web Apps are Web Apps on steroids</span>, Supercharged to give end users a Native App like experience.
 
-Progressive Web Apps are nothing new or out of the box thing, but they are quintessentially Web Apps with enhanced User Experience leveraging the power of latest web technologies like [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker), [Web App Manifests](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) etc.
+PWA's are quintessentially Web Apps with enhanced User Experience leveraging the power of latest web technologies like [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker), [Web App Manifests](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) etc.
 
 #### Is my Web App, a Progressive Web App ?
 
@@ -46,9 +46,9 @@ I'll be talking more about these features in detail in feature articles.
 
 #### What was the Purpose of this Article ?
 
-There are no ulterior motives behind this article, but to introduce PWA's and its superpowers to developer fanatics like me (I sound like a Crazy Guy, trust me I am not), who always wants to be on the bleeding edge of the technologies.
+There are no ulterior motives behind this article, but to introduce PWA's and its superpowers to developer fanatics, who always wants to be on the bleeding edge of the technologies.
 
-So, for next few articles, I am not sure how many, I'll be talking about different approaches and features (Steroids) to make your Web App a Progressive Web App and implementing it.
+So, for next few articles, I'll be talking about different approaches and features (Steroids) to make your Web App a Progressive Web App and implementing it.
 
 I have roughly broken down the Features you ought to have to call your Web App to be on Steroids
 
