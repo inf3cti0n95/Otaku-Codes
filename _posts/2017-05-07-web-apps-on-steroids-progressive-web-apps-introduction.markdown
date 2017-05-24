@@ -17,7 +17,7 @@ While Google leading the Development of the Web by making it more secure, perfor
 
 And that's when I first heard about this thing called Progressive Web App. Since the introduction of AJAX around year 2000, there had been many new technologies introduced to make the best of Web. Such as Adobe AIR, Microsoft Sliverlight and more. But they were not on par with, how AJAX changed the way developers constructed their Web Apps. Until almost 15 years later with the introduction of [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker).
 
-And Progressive Web Apps took advantages of these latest technologies which helped them supercharge web apps and provide a fast and reliable user experience.
+Progressive Web Apps takes advantage of these latest technologies which helped them supercharge web apps and provide a fast and reliable user experience.
 
 #### So, What is Progressive Web App ?
 
