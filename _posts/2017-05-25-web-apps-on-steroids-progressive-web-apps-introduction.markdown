@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Progressive Web Apps - Web Apps on Steroids"
-date:   2017-05-25 12:01:00 +0530
+date:   2017-05-25 9:01:00 +0530
 categories: [Frontend, Progressive-Web-Apps]
 hero_image: /assets/images/pwa.png
 excerpt: "Introduction to Web Apps on Steroids, Progressive Web Apps"
@@ -31,7 +31,7 @@ More precisely,
 >
 > --<cite>[Addy Osmani @addyosmani](https://github.com/addyosmani)</cite>
 
-So in a nutshell, <span style="background-color: #d6ebf2">Progressive Web Apps are Web Apps on steroids</span>, Supercharged to give end users a Native App like experience.
+In a nutshell, <span style="background-color: #d6ebf2">Progressive Web Apps are Web Apps on steroids</span>, supercharged to give end users a Native App like experience.
 
 PWA's are quintessentially Web Apps with enhanced User Experience leveraging the power of latest web technologies like [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker), [Web App Manifests](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) etc.
 
@@ -67,10 +67,8 @@ Web Apps take advantage of these latest technologies and stratagies which help t
 
 There are no ulterior motives behind this article, but to introduce PWA's and its superpowers to developer fanatics, who always wants to be on the bleeding edge of the technologies.
 
-For next few articles, I'll be talking about different approaches and features (Steroids) to make your Web App a Progressive Web App and implementing <span style="background-color: #00FF00">a Hulk like Web App</span> smashing out the boring parts.
+For next few articles, I'll be talking about different approaches and features (Steroids) to make your web app <span style="background-color: #00FF00">a Hulk like Web App</span> smashing out the boring parts.
 
 #### TL;DR
 
 How awesome Progressive Web Apps are and why I'll be talking a lot about it in feature.
-
-
