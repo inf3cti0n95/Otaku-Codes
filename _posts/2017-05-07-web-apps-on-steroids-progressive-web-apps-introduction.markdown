@@ -72,5 +72,3 @@ For next few articles, I'll be talking about different approaches and features (
 #### TL;DR
 
 How awesome Progressive Web Apps are and why I'll be talking a lot about it in feature.
-
-
