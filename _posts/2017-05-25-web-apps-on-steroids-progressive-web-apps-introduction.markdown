@@ -14,7 +14,7 @@ excerpt: "Introduction to Web Apps on Steroids, Progressive Web Apps"
 
 There has been a lot of new things coming now a days. Since the rise of the JavaScript ecosystem. Both in Backend with Node.js and in Frontend with plethora of JavaScript Frameworks while popular frameworks like React and Angular leading the horde.
 
-While Google leading the Development of the Web by making it more secure, performant and immersive. [Alex Russell @slightlyoff](https://github.com/slightlyoff) from Google and [Frances Berriman @phae](https://github.com/phae) discussed on how to enhance the user experience in their article [ Progressive Web Apps: Escaping Tabs Without Losing Our Soul ](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/) and introduced the term Progressive Web App for the first time and defined what was needed for a Web App to evolve.
+While Google leading the Development of the Web by making it more secure, performant and immersive. [Alex Russell @slightlyoff](https://github.com/slightlyoff) from Google and [Frances Berriman @phae](https://github.com/phae) discussed on how to enhance the user experience in their article [ Progressive Web Apps: Escaping Tabs Without Losing Our Soul ](https://infrequently.org/2015/06/progressive-apps-escaping-tabs-without-losing-our-soul/) and introduced the term ***Progressive Web App*** for the first time and defined what was needed for a Web App to evolve.
 
 And that's when I first heard about this thing called Progressive Web App. These apps can deliver an even better user experience than traditional web apps.
 
