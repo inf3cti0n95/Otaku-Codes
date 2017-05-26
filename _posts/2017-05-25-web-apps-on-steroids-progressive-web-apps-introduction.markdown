@@ -69,8 +69,8 @@ Web Apps take advantage of these latest technologies and strategies which help t
 
 There are no ulterior motives behind this article, but to introduce PWA's and its superpowers to developer fanatics, who always wants to be on the bleeding edge of the technologies.
 
-For next few articles, I'll be talking about different approaches and features (Steroids) to make your web app <span style="background-color: #00FF00">&nbsp;a Hulk like Web App </span> smashing out the boring parts.
+For next few articles, I'll be talking about different approaches and features (Steroids) to make your web app <span style="background-color: #00FF00">&nbsp;a Hulk like Web App </span>, smashing out the boring parts.
 
 #### TL;DR
 
-How awesome Progressive Web Apps are and why I'll be talking a lot about it in feature.
+How awesome Progressive Web Apps are and why I'll be talking a lot about it in future.
