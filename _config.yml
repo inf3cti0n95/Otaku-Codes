@@ -2,7 +2,7 @@ name: Otaku Codes
 description: Life of an Otaku, coding its way, to become No. 1
 meta_description: "Life of an Otaku, coding its way, to become No. 1"
 
-favicon: /assets/images/otaku.png
+favicon: '/assets/images/otaku.png'
 
 markdown: kramdown
 permalink: /:categories/:title.html
