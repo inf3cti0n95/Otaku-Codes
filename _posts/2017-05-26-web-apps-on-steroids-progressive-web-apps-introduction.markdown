@@ -12,6 +12,11 @@ excerpt: "Introduction to Web Apps on Steroids, Progressive Web Apps"
 <cite >--Image from [Ionic JS Blog](http://blog.ionic.io/what-is-a-progressive-web-app/)</cite>
 
 
+>#### TL;DR
+>
+>How awesome Progressive Web Apps are and why I'll be talking a lot about it in future.
+
+
 There has been a lot of new things coming now a days. Since the rise of the JavaScript ecosystem. Both in backend with Node.js and in frontend with plethora of JavaScript Frameworks while popular frameworks like React and Angular leading the horde.
 
 While JavaScript leading the Development of the Web by making it more secure, performant and immersive.
@@ -67,7 +72,3 @@ Web Apps take advantage of these latest technologies and strategies which help t
 To introduce PWA's and its superpowers to developer fanatics, who always wants to be on the bleeding edge of the technologies.
 
 For next few articles, I'll be talking about different approaches and features (Steroids) to make your web app <span style="background-color: #00FF00">&nbsp;a Hulk like Web App </span>, smashing out the boring parts.
-
-#### TL;DR
-
-How awesome Progressive Web Apps are and why I'll be talking a lot about it in future.
