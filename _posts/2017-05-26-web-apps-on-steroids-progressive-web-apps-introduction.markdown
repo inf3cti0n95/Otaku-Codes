@@ -37,6 +37,14 @@ In a nutshell, <span style="background-color: #d6ebf2">&nbsp;Progressive Web App
 
 PWA's are quintessentially Web Apps with enhanced User Experience leveraging the power of latest web technologies like [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker), [Web App Manifests](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) etc.
 
+#### Why a Progressive Web App ?
+
+After the rise of Smartphones, a huge chunk of internet users browse Websites via Smartphones. According to report by StatCounter - By the year 2016, surfing the Web on Mobile Devices surpassed Desktops.
+
+![Internet Usage Stats Desktop vs Mobile](http://gs.statcounter.com/download/internet_usage_2009_2016_ww.png)
+
+And this reason is enough to make most of the businesses to make their Web Apps mobile first. And in my opinion, PWAs is the best standard for a Mobile Web App. As PWAs were designed to make Web Apps feel almost indistinguishable from Native Mobile Apps.
+
 
 #### Is my Web App, a Progressive Web App ?
 
