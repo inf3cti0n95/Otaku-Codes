@@ -67,6 +67,6 @@ To introduce PWA's and its superpowers to developer fanatics, who always wants t
 
 For next few articles, I'll be talking about different approaches and features (Steroids) to make your web app <span style="background-color: #00FF00">&nbsp;a Hulk like Web App </span>, smashing out the boring parts.
 
->#### TL;DR
->
->How awesome Progressive Web Apps are and why I'll be talking a lot about it in future.
+#### TL;DR
+
+How awesome Progressive Web Apps are and why I'll be talking a lot about it in future.
