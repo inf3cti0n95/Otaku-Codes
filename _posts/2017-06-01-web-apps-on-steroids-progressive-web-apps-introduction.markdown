@@ -70,3 +70,5 @@ For next few articles, I'll be talking about different approaches and features (
 #### TL;DR
 
 How awesome Progressive Web Apps are and why I'll be talking a lot about it in future.
+
+Also posted on [Medium.com/OtakuCodes](https://medium.com/otakucodes/progressive-web-apps-web-apps-on-steroids-9575f6ffc4b5)
