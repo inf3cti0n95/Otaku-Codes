@@ -22,7 +22,6 @@ And that's when I first heard about called a ***Progressive Web App***.
 
 #### So, What is Progressive Web App ?
 
-
 > "A Progressive Web App uses modern web capabilities to deliver an app-like user experience."
 >
 > --<cite>[Google Developers - Progressive Web App Article](https://developers.google.com/web/progressive-web-apps/?hl=en)</cite>
@@ -33,14 +32,12 @@ More precisely,
 >
 > --<cite>[Addy Osmani](https://github.com/addyosmani)</cite>
 
-In a nutshell, <span style="background-color: #d6ebf2">&nbsp;Progressive Web Apps are Web Apps on steroids </span>, supercharged to give end users a Native App like experience.
+Or to find answer to this question is same as finding answer to any other question nowadays, "Ask Google" and If you are lazy not to ask Google, Let me google that for you - [click here](http://letmegooglethat.com/?q=progressive+web+app+checklist) and Go to the First link you find out.
+
 
 PWA's are quintessentially Web Apps with enhanced User Experience leveraging the power of latest web technologies like [Service Workers](https://developers.google.com/web/fundamentals/getting-started/primers/service-workers#what_is_a_service_worker), [Web App Manifests](https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/) etc.
 
-
-#### Is my Web App, a Progressive Web App ?
-
-To find answer to this question is same as finding answer to any other question nowadays, "Ask Google" and If you are lazy not to ask Google, Let me google that for you - [click here](http://letmegooglethat.com/?q=progressive+web+app+checklist) and Go to the First link you find out.
+In a nutshell, <span style="background-color: #d6ebf2">&nbsp;Progressive Web Apps are Web Apps on steroids </span>, supercharged to give end users a Native App like experience.
 
 I've listed some steroids Web Apps need to take to call it a PWA. 
 
