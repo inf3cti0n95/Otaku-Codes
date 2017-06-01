@@ -11,6 +11,10 @@ excerpt: "Introduction of this Otaku (Myself) and his Otaku Blog, Otaku.Codes"
 ![Konnichiwa](/assets/images/Konnichiwa-1.jpg)
 
 
+>#### TL;DR
+>
+>How big of an Otaku, Awesome, Lazy and Crazy I am.
+
 Hello Everyone, Konnichiwa !!
 
 As an Introductory post, I want to keep it short and sweet. I wanted to start my own blog from ages. But didn't make it through till now, when I found this awesome domain Otaku.Codes which reflects my personality *#Otaku*.
@@ -42,6 +46,3 @@ So, an Otaku person is a Geek, Nerd always into Manga, Anime, Computers and Othe
 
 Nothing fancy, just to share My Experiences (*I ain't an Old Guy, I am just 21 years old.*) and My silly coding mistakes with everyone, and share my journey to become **the King of Coders** *#LuffyOnePiece* and Obviously to **Make the World a Better Place**.
 
-#### TL;DR
-
-How big of an Otaku, Awesome, Lazy and Crazy I am.
