@@ -20,7 +20,7 @@ In mid 2015, [Alex Russell](https://github.com/slightlyoff) from Google and [Fra
 
 And that's when I first heard about called a ***Progressive Web App***.
 
-#### So, What is Progressive Web App ?
+#### So, What is a "Progressive Web App" ?
 
 > "A Progressive Web App uses modern web capabilities to deliver an app-like user experience."
 >
