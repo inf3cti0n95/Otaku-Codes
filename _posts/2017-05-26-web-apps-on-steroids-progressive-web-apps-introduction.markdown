@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Progressive Web Apps - Web Apps on Steroids"
-date:   2017-05-26 11:20:00 +0530
+date:   2017-06-01 1:41:00 +0530
 categories: [Frontend, Progressive-Web-Apps]
 hero_image: /assets/images/pwa.png
 excerpt: "Introduction to Web Apps on Steroids, Progressive Web Apps"
