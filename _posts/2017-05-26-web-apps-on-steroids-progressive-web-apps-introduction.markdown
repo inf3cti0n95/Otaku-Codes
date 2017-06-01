@@ -62,7 +62,7 @@ I've listed some steroids Web Apps need to take to call it a PWA.
 
 Web Apps take advantage of these latest technologies and strategies which help them supercharge themselves and provide a fast and reliable user experience.
 
-#### What was the Purpose of this Article ?
+#### Reason behind talking about Progressive Web Apps
 
 To introduce PWA's and its superpowers to developer fanatics, who always wants to be on the bleeding edge of the technologies.
 
