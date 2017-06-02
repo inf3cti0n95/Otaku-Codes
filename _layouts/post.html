@@ -11,14 +11,14 @@ post_class: post-template
         <a class="subscribe-button icon-feed" href="{{ site.baseurl }}feed.xml">Subscribe</a>
     </nav>
 </header>
-<main class="content" role="main">
+<main  itemscope itemtype="http://schema.org/Article" class="content" role="main">
 
     <article class="post">
 
         <header class="post-header">
-            <h1 class="post-title">{{ page.title }}</h1>
+            <h1 itemprop="name" class="post-title">{{ page.title }}</h1>
             <section class="post-meta">
-                <time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
+                <time class="post-date" itemprop="datePublished" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date_to_string }}</time>
                 {% if page.categories.size > 0 %}
                     {{ page.categories | array_to_sentence_string | prepend: 'on ' }}
                 {% endif %}
@@ -44,20 +44,12 @@ post_class: post-template
 
         <!-- <h1 class="post-title">{{ page.title }}</h1> -->
 
-        <section class="post-content">
+        
+        <section itemprop="mainEntityOfPage" itemprop="articleBody" class="post-content">
             {{content}}
         </section>
 
-        {% if page.archive %}
-        <section class="archive">
-            <h5>Archive</h5>
-            <ul>
-                {% for post in site.posts %}
-                    <li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
-                {% endfor %}
-            </ul>
-        </section>
-        {% endif %}
+        
 
         <footer class="post-footer">
             <!-- If we want to display author's name and bio -->
@@ -68,7 +60,7 @@ post_class: post-template
                 </figure>
                 <section class="author">
                     <!-- Author Name -->
-                    <h4> {{ site.author }} </h4>
+                    <span  itemprop="author" itemscope itemtype="http://schema.org/Person"><h4 itemprop="name"> {{ site.author }} </h4></span>
                     <!-- Author Bio -->
                     <p>
                         {{site.authordesc}}
@@ -78,12 +70,39 @@ post_class: post-template
 
             <!-- Share links section -->
             {% include share.html %}
-
+            <hr />
+            <section class="archive">
+                <h5>Archive</h5>
+                <ul>
+                    {% for post in site.posts %}
+                        <li><span>{{ post.date | date_to_string }}</span>  <a href="{{ post.url }}">{{ post.title }}</a></li>
+                    {% endfor %}
+                </ul>
+             </section>
+             <hr />
             <!-- Disqus comments -->
                 {% include disqus.html %}
 
         </footer>
 
     </article>
+
+    <meta itemprop="url" content="{{site.url}}{{page.url}}">
+    <meta itemprop="dateModified" content="{{ page.date | date:"%Y-%m-%d" }}">
+    <meta itemprop="headline" content="{{ page.excerpt }}">
+    <span itemprop="image" itemscope itemtype="https://schema.org/ImageObject">
+        <!--<meta itemprop="image"   content="{{site.url}}{{page.hero_image}}">-->
+        <meta itemprop="url"   content="{{site.url}}{{page.hero_image}}">
+        <meta itemprop="height"   content="800px">
+        <meta itemprop="width"   content="800px">
+    </span>
+    <span itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="{{site.name}}">
+        <span itemscope itemprop="logo" itemtype="https://schema.org/ImageObject">
+        <meta itemprop="url"   content="{{site.url}}{{site.favicon}}">
+        <meta itemprop="height"   content="800px">
+        <meta itemprop="width"   content="800px">
+        </span>
+    </span>
 
 </main>
