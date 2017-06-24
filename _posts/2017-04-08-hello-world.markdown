@@ -8,12 +8,11 @@ excerpt: "Introduction of this Otaku (Myself) and his Otaku Blog, Otaku.Codes"
 
 ---
 
-![Konnichiwa](/assets/images/Konnichiwa-1.jpg)
-
-
 >#### TL;DR
 >
 >How big of an Otaku, Awesome, Lazy and Crazy I am.
+
+![Konnichiwa](/assets/images/Konnichiwa-1.jpg)
 
 Hello Everyone, Konnichiwa !!
 
