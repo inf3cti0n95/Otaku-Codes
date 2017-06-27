@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Summer Coding with Rocket.Chat - #0 | Before the Summer"
-date:   2017-06-27 4:48:00 +0530
+date:   2017-06-27 16:48:00 +0530
 categories: [Rocket-Chat, Summer-of-Code,]
 hero_image: /assets/images/rcsoc.png
 excerpt: "Summer Coding with Rocket.Chat- #0 | Before the Summer"
