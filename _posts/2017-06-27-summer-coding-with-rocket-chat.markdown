@@ -35,3 +35,9 @@ I requested Karl, to let me in to pursue the project, He asked his higher ups an
 Thus, my journey begins with Rocket.Chat with their Summer of Code. It is fun being a Contributor at Rocket.Chat, where everyone is so helpful and always trying to write the best code, learning new things.
 
 Since this post is getting too long, I'll share my Coding Experience in later posts. That's why I made this the post #0. As this is the point where the ***actual journey begins***.
+
+---
+
+
+***Also posted on [Medium.com/OtakuCodes](https://medium.com/otakucodes/summer-coding-with-rocket-chat-0-before-the-summer-bc0a82315023)***
+
