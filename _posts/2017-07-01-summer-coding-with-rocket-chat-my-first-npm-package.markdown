@@ -22,7 +22,7 @@ excerpt: "Summer Coding with Rocket.Chat- #1 | My Very First NPM Package"
 
 As I mentioned, Earlier in June, I got into Rocket.Chat after [this turnaround]() and started laying out the plans for coding the React App for Rocket.Chat's Progressive Web App Client with my Mentors [Karl Prieb]() and [Guilhermme Gazzo]().
 
-Everything was going well (Atleast that is what I thought at that time, I didn't know what storm was brewing out there.) I thought, how hard could it be to build a Chat Application. I went all out for the first week, initializing the a pretty React App Starter of my own (I have an weird OCD of making things from scratch, that way I always know what is going on, with every line of code written). Finished this task of stater app easily, A piece of cake, then there was this next Card on trello board saying ***Implementation of Interface to Rocket.Chat's Realtime API*** for interactions with the Rocket.Chat's Server.
+Everything was going well (Atleast that is what I thought at that time, I didn't know what storm was brewing out there.) I thought, how hard could it be to build a Chat Application. I went all out for the first week, initializing the a pretty React App Starter of my own (I have a weird OCD of making things from scratch, that way I always know what is going on, with every line of code written). Finished this task of stater app easily, A piece of cake, then there was this next Card on trello board saying ***Implementation of Interface to Rocket.Chat's Realtime API*** for interactions with the Rocket.Chat's Server.
 
 But (there's always a but ), When I saw the list of methods and responses and subscriptions and events, I discussed with Karl and thought about some of the features for Implementation.
 
@@ -30,7 +30,7 @@ But (there's always a but ), When I saw the list of methods and responses and su
 - Building a Redux Middleware, that would handle the State of the App.
 - Building, Somekind of wrapper to Abstract the RealTime API.
 
-That is when Karl, told me to checkout, ***Rx (Reactive Extensions)*** for the Implementation. I did, and I was baffled 🌀🌀🌀 by the long chain of operators one after another, the Marble Charts and the All new Reactive Programming Paradigm. I watched some online conferences and I was surprised how little code in Rx could do stuff that required 100s of LOC in Callbacks. It was like I hit a gold mine. 
+That is when Karl told me to checkout, ***Rx (Reactive Extensions)*** for the Implementation. I did, and I was baffled 🌀🌀🌀 by the long chain of operators one after another, the Marble Charts and the All new Reactive Programming Paradigm. I watched some online conferences and I was surprised how little code in Rx could do stuff that required 100s of LOC in Callbacks.
 
 <div>
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Seeing <a href="https://twitter.com/hashtag/RxJS?src=hash">#RxJS</a> for the first time! and I am Awed <a href="https://twitter.com/BenLesh">@BenLesh</a> <a href="https://twitter.com/_jayphelps">@_jayphelps</a> <a href="https://t.co/Z0CQ8y69IE">pic.twitter.com/Z0CQ8y69IE</a></p>&mdash; Viraj Trivedi (@inf3cti0n95) <a href="https://twitter.com/inf3cti0n95/status/874131779862614017">June 12, 2017</a></blockquote>
@@ -51,7 +51,7 @@ Rx sure has some learning curve but once you get your hands dirty with some Obse
 
 #### Rx + Redux + React 😍😍😍
 
-RxJS is pretty much the only thing needed for handling everthing, Angular 2 + has RxJS built in for everything, That's when I thought there must be something to couple Rx and React, and I hit the next lot of Gold from the Same Gold mine, [***Redux Observables***](https://redux-observable.js.org/) or the Three Ducks 🦆🦆🦆 Observables as guys from Rx like to call it.
+RxJS is pretty much the only thing needed for handling everthing, Angular 2 + has RxJS built in for everything, That's when I thought there must be something to couple Rx and React, and found out [***Redux Observables***](https://redux-observable.js.org/) ( the Three Ducks 🦆🦆🦆 ) Observables as guys from Rx like to call it.
 
 
 ***Redux Observables*** is a [Redux](http://redux.js.org/) middleware that solves managing states and the async behaviours with so called [***"Epics"***](https://redux-observable.js.org/docs/basics/Epics.html), an Epic is Stream of redux actions which returns a stream of actions. That sounds familiar, right ?. Yes, an Epic is an Observable of redux actions.
