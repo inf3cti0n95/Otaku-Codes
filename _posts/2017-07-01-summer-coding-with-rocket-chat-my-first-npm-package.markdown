@@ -24,7 +24,7 @@ As I mentioned, Earlier in June, I got into Rocket.Chat after [this turnaround](
 
 Everything was going well (Atleast that is what I thought at that time, I didn't know what storm was brewing out there.)
 
-I thought, how hard could it be to build a Chat Application. I went all out for the first week, initializing the a pretty React App Starter of my own (I have a weird OCD of making things from scratch, that way I always know what is going on, with every line of code written). Finished this task of stater app easily, A piece of cake, then there was this next Card on trello board saying ***Implementation of Interface to Rocket.Chat's Realtime API*** for interactions with the Rocket.Chat's Server. I thought, "How hard Could it be?"
+I thought, how hard could it be to build a Chat Application. I went at it, initializing a pretty React App Starter of my own (I have a weird OCD of making things from scratch, that way I always know what is going on, with every line of code written). Finished this task of stater app easily, A piece of cake, then there was this next Card on trello board saying ***Implementation of Interface to Rocket.Chat's Realtime API*** for interactions with the Rocket.Chat's Server. I thought, "How hard Could it be?"
 
 But (there's always a but ), When I saw the list of methods and responses and subscriptions and events, I knew it isn't going to be a piece of cake.
 
