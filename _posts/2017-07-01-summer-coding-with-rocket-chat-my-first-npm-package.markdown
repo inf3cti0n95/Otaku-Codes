@@ -22,15 +22,20 @@ excerpt: "Summer Coding with Rocket.Chat- #1 | My Very First NPM Package"
 
 As I mentioned, Earlier in June, I got into Rocket.Chat after [this turnaround]() and started laying out the plans for coding the React App for Rocket.Chat's Progressive Web App Client with my Mentors [Karl Prieb]() and [Guilhermme Gazzo]().
 
-Everything was going well (Atleast that is what I thought at that time, I didn't know what storm was brewing out there.) I thought, how hard could it be to build a Chat Application. I went all out for the first week, initializing the a pretty React App Starter of my own (I have a weird OCD of making things from scratch, that way I always know what is going on, with every line of code written). Finished this task of stater app easily, A piece of cake, then there was this next Card on trello board saying ***Implementation of Interface to Rocket.Chat's Realtime API*** for interactions with the Rocket.Chat's Server.
+Everything was going well (Atleast that is what I thought at that time, I didn't know what storm was brewing out there.)
 
-But (there's always a but ), When I saw the list of methods and responses and subscriptions and events, I discussed with Karl and thought about some of the features for Implementation.
+I thought, how hard could it be to build a Chat Application. I went all out for the first week, initializing the a pretty React App Starter of my own (I have a weird OCD of making things from scratch, that way I always know what is going on, with every line of code written). Finished this task of stater app easily, A piece of cake, then there was this next Card on trello board saying ***Implementation of Interface to Rocket.Chat's Realtime API*** for interactions with the Rocket.Chat's Server. I thought, "How hard Could it be?"
+
+But (there's always a but ), When I saw the list of methods and responses and subscriptions and events, I knew it isn't going to be a piece of cake.
 
 - Handling the Asynchronous Behaviour of Websockets.
 - Building a Redux Middleware, that would handle the State of the App.
 - Building, Somekind of wrapper to Abstract the RealTime API.
+- and Doing all the stuff simultaneously.
 
-That is when Karl told me to checkout, ***Rx (Reactive Extensions)*** for the Implementation. I did, and I was baffled 🌀🌀🌀 by the long chain of operators one after another, the Marble Charts and the All new Reactive Programming Paradigm. I watched some online conferences and I was surprised how little code in Rx could do stuff that required 100s of LOC in Callbacks.
+That is when Karl told me to checkout, ***Rx (Reactive Extensions)*** for the Implementation. I did, and I was baffled 🌀🌀🌀 by the long chain of operators one after another, and the All new Reactive Programming Paradigm. 
+
+Watched some online conferences and I was surprised how little code in Rx could do stuff that required 100s of LOC in Callbacks.
 
 <div>
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Seeing <a href="https://twitter.com/hashtag/RxJS?src=hash">#RxJS</a> for the first time! and I am Awed <a href="https://twitter.com/BenLesh">@BenLesh</a> <a href="https://twitter.com/_jayphelps">@_jayphelps</a> <a href="https://t.co/Z0CQ8y69IE">pic.twitter.com/Z0CQ8y69IE</a></p>&mdash; Viraj Trivedi (@inf3cti0n95) <a href="https://twitter.com/inf3cti0n95/status/874131779862614017">June 12, 2017</a></blockquote>
@@ -43,9 +48,9 @@ That is when Karl told me to checkout, ***Rx (Reactive Extensions)*** for the Im
 > Think of RxJS as Lodash for events.
 > --<cite>[RxJS Documentation](http://reactivex.io/rxjs/manual/overview.html)</cite>
 
-ReactiveX combines the Observer pattern with the Iterator pattern and functional programming with collections to fill the need for an ideal way of managing sequences of events.
+ReactiveX combines the Observer pattern with the Iterator pattern and functional programming with collections to fill the need for an ideal way of managing sequences of events. 
 
-In other terms, if you have ever used iterator, they pull the value from the collection, where as the observable pushes value to the subscriber. Thus, you can think of it as Iterator turned inside out. Not getting what I said, checkout the documentation of RxJS where it explains [Observables](http://reactivex.io/rxjs/manual/overview.html#observable)
+Not getting what I said, checkout the documentation of RxJS where it explains [Observables](http://reactivex.io/rxjs/manual/overview.html#observable)
 
 Rx sure has some learning curve but once you get your hands dirty with some Observables, You'll love it.
 
@@ -63,6 +68,6 @@ const actionEpic = (action$) => newAction$;
 
 Redux-Observable makes handling states on the async actions slick !!!
 
-This is what was needed, A chat application like Rocket.Chat has a lot of complex async actions, and handling state of the app on the basis of those actions is very difficult task.
+This is what I needed for a chat application like Rocket.Chat which has a lot of complex async actions, and handling state of the app on the basis of those actions is very difficult task.
 
-Thus, after understanding, bits of RxJS and Redux Observables, I made a wrapper to handle the Methods and Subscriptions of the Rocket.Chat's Real Time API, that's when I with help of mentors at Rocket.Chat ([karl.prieb](https://github.com/karlprieb) and [ggazzo](https://github.com/ggazzo)) published an npm package called [***Rocket.Chat.RealTime.API.RxJS***](https://www.npmjs.com/package/rocket.chat.realtime.api.rxjs)
+After understanding, bits of RxJS and Redux Observables, I made a wrapper to handle the Methods and Subscriptions of the Rocket.Chat's Real Time API, that's when I with help of mentors at Rocket.Chat ([karl.prieb](https://github.com/karlprieb) and [ggazzo](https://github.com/ggazzo)) published an npm package called [***Rocket.Chat.RealTime.API.RxJS***](https://www.npmjs.com/package/rocket.chat.realtime.api.rxjs)
