@@ -22,15 +22,15 @@ excerpt: "Summer Coding with Rocket.Chat- #1 | My Very First NPM Package"
 
 As I mentioned, Earlier in June, I got into Rocket.Chat after [this turnaround]() and started laying out the plans for coding the React App for Rocket.Chat's Progressive Web App Client with my Mentors [Karl Prieb]() and [Guilhermme Gazzo]().
 
-Everything was going well (Atleast that is what I thought at that time, I didn't know what storm was brewing out there.) I thought, how hard could it be to build a Chat Application. I went all out for the first week, initializing the a pretty React App Starter of my own (I love making things from scratch, that way I always know what is going on, with every line of code written). Finished this task of stater app easily, A piece of cake, then there was this next Card on trello board saying ***Implementation of Interface to Rocket.Chat's Realtime API*** for interactions with the Rocket.Chat's Server. I went onto the docs, reading the first line saying "It all based on WebSockets", I was happy, I had worked on some pretty websocket things earlier, and then again I thought ***"Its going to be a piece of cake"***.
+Everything was going well (Atleast that is what I thought at that time, I didn't know what storm was brewing out there.) I thought, how hard could it be to build a Chat Application. I went all out for the first week, initializing the a pretty React App Starter of my own (I have an weird OCD of making things from scratch, that way I always know what is going on, with every line of code written). Finished this task of stater app easily, A piece of cake, then there was this next Card on trello board saying ***Implementation of Interface to Rocket.Chat's Realtime API*** for interactions with the Rocket.Chat's Server.
 
-But (there's always a but ), When I saw the list of methods and responses and subscriptions and events, I realized that it was not going to be a piece of cake. I discussed with Karl and thought about some of the features for Implementation.
+But (there's always a but ), When I saw the list of methods and responses and subscriptions and events, I discussed with Karl and thought about some of the features for Implementation.
 
 - Handling the Asynchronous Behaviour of Websockets.
 - Building a Redux Middleware, that would handle the State of the App.
 - Building, Somekind of wrapper to Abstract the RealTime API.
 
-That is when Karl, told me to checkout, ***Rx (Reactive Extensions)*** for the Implementation. I did, and I was baffeled 🌀🌀🌀 by the long chain of operators one after another, the Marble Charts and the All new Reactive Programming Paradigm. I watched some online conferences and I was surprised how little code in Rx could do stuff that required 100s of LOC in Callbacks. It was like I hit a gold mine. 
+That is when Karl, told me to checkout, ***Rx (Reactive Extensions)*** for the Implementation. I did, and I was baffled 🌀🌀🌀 by the long chain of operators one after another, the Marble Charts and the All new Reactive Programming Paradigm. I watched some online conferences and I was surprised how little code in Rx could do stuff that required 100s of LOC in Callbacks. It was like I hit a gold mine. 
 
 <div>
     <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Seeing <a href="https://twitter.com/hashtag/RxJS?src=hash">#RxJS</a> for the first time! and I am Awed <a href="https://twitter.com/BenLesh">@BenLesh</a> <a href="https://twitter.com/_jayphelps">@_jayphelps</a> <a href="https://t.co/Z0CQ8y69IE">pic.twitter.com/Z0CQ8y69IE</a></p>&mdash; Viraj Trivedi (@inf3cti0n95) <a href="https://twitter.com/inf3cti0n95/status/874131779862614017">June 12, 2017</a></blockquote>
