@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Summer Coding with Rocket.Chat - #1 | My Very First NPM Package"
+title:  "Summer Coding with Rocket.Chat - #1 | The Async Conundrum"
 date:   2017-07-01 16:00:00 +0530
 categories: [Rocket-Chat, Summer-of-Code]
 hero_image: /assets/images/rcsoc.png
