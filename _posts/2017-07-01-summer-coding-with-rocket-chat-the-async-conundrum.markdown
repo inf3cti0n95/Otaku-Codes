@@ -60,13 +60,10 @@ RxJS is pretty much the only thing needed for handling everthing, Angular 2 + ha
 
 ***Redux Observables*** is a [Redux](http://redux.js.org/) middleware that solves managing states and the async behaviours with so called [***"Epics"***](https://redux-observable.js.org/docs/basics/Epics.html), an Epic is Stream of redux actions which returns a stream of actions. That sounds familiar, right ?. Yes, an Epic is an Observable of redux actions.
 
-```
-const actionEpic = (action$) => newAction$;
-
-```
-
 Redux-Observable makes handling states on the async actions slick !!!
 
 Redux Observables was the last missing bit, I was searching for.
 
-After learning all the bits of RxJS and Redux Observables required, I made a wrapper to handle the Methods and Subscriptions of the Rocket.Chat's Real Time API, with help of mentors at Rocket.Chat ([karl.prieb](https://github.com/karlprieb) and [ggazzo](https://github.com/ggazzo)) published an npm package called [***Rocket.Chat.RealTime.API.RxJS***](https://www.npmjs.com/package/rocket.chat.realtime.api.rxjs) 🌈🌈🌈. 
+Learning all the bits of RxJS and Redux Observables required, I made a wrapper to handle the Methods and Subscriptions of the Rocket.Chat's Real Time API, with help of mentors at Rocket.Chat ([karl.prieb](https://github.com/karlprieb) and [ggazzo](https://github.com/ggazzo)) published an npm package called [***Rocket.Chat.RealTime.API.RxJS***](https://www.npmjs.com/package/rocket.chat.realtime.api.rxjs) 🌈🌈🌈. 
+
+Now, It's being used by Me and Other fellow Rocketeers in their projects. All in all it is a great time, learning so many new things and I hope to learn a lot more in coming weeks.
