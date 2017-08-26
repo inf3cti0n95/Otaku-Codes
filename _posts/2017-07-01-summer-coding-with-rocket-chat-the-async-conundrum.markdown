@@ -20,7 +20,7 @@ excerpt: "Summer Coding with Rocket.Chat- #1 | The Async Conundrum"
 > --<cite>Viktor E. Frankl</cite>
 >
 
-As I mentioned, Earlier in June, I got into Rocket.Chat after [this turnaround]() and started laying out the plans for coding the React App for Rocket.Chat's Progressive Web App Client with my Mentors [Karl Prieb]() and [Guilhermme Gazzo]().
+As I mentioned, Earlier in June, (Sorry to take so long for this next post 😅) I got into Rocket.Chat after [this turnaround](http://otaku.codes/rocket-chat/summer-of-code/summer-coding-with-rocket-chat.html) and started laying out the plans for coding the React App for Rocket.Chat's Progressive Web App Client with my Mentors [Karl Prieb](https://github.com/karlprieb) and [Guilhermme Gazzo](https://github.com/ggazzo).
 
 Everything was going well (Atleast that is what I thought at that time, I didn't know what storm was brewing out there.)
 
@@ -64,6 +64,6 @@ Redux-Observable makes handling states on the async actions slick !!!
 
 Redux Observables was the last missing bit, I was searching for.
 
-Learning all the bits of RxJS and Redux Observables required, I made a wrapper to handle the Methods and Subscriptions of the Rocket.Chat's Real Time API, with help of mentors at Rocket.Chat ([karl.prieb](https://github.com/karlprieb) and [ggazzo](https://github.com/ggazzo)) published an npm package called [***Rocket.Chat.RealTime.API.RxJS***](https://www.npmjs.com/package/rocket.chat.realtime.api.rxjs) 🌈🌈🌈. 
+Learning all the bits of RxJS and Redux Observables required, I made a wrapper to handle the Methods and Subscriptions of the Rocket.Chat's Real Time API, with help of mentors at Rocket.Chat published an npm package called [***Rocket.Chat.RealTime.API.RxJS***](https://www.npmjs.com/package/rocket.chat.realtime.api.rxjs) 🌈🌈🌈. 
 
-Now, It's being used by Me and Other fellow Rocketeers in their projects. All in all it is a great time, learning so many new things and I hope to learn a lot more in coming weeks.
+Now, It's being used by Me and Other fellow Rocketeers in their projects. I am having a great time, learning so many new things and I hope to learn a lot more in coming weeks.
