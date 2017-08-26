@@ -4,7 +4,7 @@ title:  "Summer Coding with Rocket.Chat - #1 | My Very First NPM Package"
 date:   2017-07-01 16:00:00 +0530
 categories: [Rocket-Chat, Summer-of-Code]
 hero_image: /assets/images/rcsoc.png
-excerpt: "Summer Coding with Rocket.Chat- #1 | My Very First NPM Package"
+excerpt: "Summer Coding with Rocket.Chat- #1 | The Async Conundrum"
 ---
 
 >#### TL;DR
@@ -58,7 +58,6 @@ Rx sure has some learning curve but once you get your hands dirty with some Obse
 
 RxJS is pretty much the only thing needed for handling everthing, Angular 2 + has RxJS built in for everything, That's when I thought there must be something to couple Rx and React, and found out [***Redux Observables***](https://redux-observable.js.org/) ( the Three Ducks 🦆🦆🦆 ) Observables as guys from Rx like to call it.
 
-
 ***Redux Observables*** is a [Redux](http://redux.js.org/) middleware that solves managing states and the async behaviours with so called [***"Epics"***](https://redux-observable.js.org/docs/basics/Epics.html), an Epic is Stream of redux actions which returns a stream of actions. That sounds familiar, right ?. Yes, an Epic is an Observable of redux actions.
 
 ```
@@ -68,6 +67,6 @@ const actionEpic = (action$) => newAction$;
 
 Redux-Observable makes handling states on the async actions slick !!!
 
-This is what I needed for a chat application like Rocket.Chat which has a lot of complex async actions, and handling state of the app on the basis of those actions is very difficult task.
+Redux Observables was the last missing bit, I was searching for.
 
-After understanding, bits of RxJS and Redux Observables, I made a wrapper to handle the Methods and Subscriptions of the Rocket.Chat's Real Time API, that's when I with help of mentors at Rocket.Chat ([karl.prieb](https://github.com/karlprieb) and [ggazzo](https://github.com/ggazzo)) published an npm package called [***Rocket.Chat.RealTime.API.RxJS***](https://www.npmjs.com/package/rocket.chat.realtime.api.rxjs)
+After learning all the bits of RxJS and Redux Observables required, I made a wrapper to handle the Methods and Subscriptions of the Rocket.Chat's Real Time API, with help of mentors at Rocket.Chat ([karl.prieb](https://github.com/karlprieb) and [ggazzo](https://github.com/ggazzo)) published an npm package called [***Rocket.Chat.RealTime.API.RxJS***](https://www.npmjs.com/package/rocket.chat.realtime.api.rxjs) 🌈🌈🌈. 
