@@ -3,7 +3,7 @@ layout: post
 title:  "Summer Coding with Rocket.Chat - #1 | The Async Conundrum"
 date:   2017-07-01 16:00:00 +0530
 categories: [Rocket-Chat, Summer-of-Code]
-hero_image: /assets/images/rcsoc.png
+hero_image: /assets/images/rcsoc2.png
 excerpt: "Summer Coding with Rocket.Chat- #1 | The Async Conundrum"
 ---
 
@@ -12,7 +12,7 @@ excerpt: "Summer Coding with Rocket.Chat- #1 | The Async Conundrum"
 >Coding begins, How Do I handle this much of asynchronicity 🌀🌀🌀, **Functional Reactive Programming** to the Rescue.
 >
 
-![Summer of Code with Rocket Chat](/assets/images/rcsoc.png)
+![Summer of Code with Rocket Chat](/assets/images/rcsoc2.png)
 
 >
 >
@@ -20,7 +20,7 @@ excerpt: "Summer Coding with Rocket.Chat- #1 | The Async Conundrum"
 > --<cite>Viktor E. Frankl</cite>
 >
 
-As I mentioned, Earlier in June, (Sorry to take so long for this next post 😅) I got into Rocket.Chat after [this turnaround](http://otaku.codes/rocket-chat/summer-of-code/summer-coding-with-rocket-chat.html) and started laying out the plans for coding the React App for Rocket.Chat's Progressive Web App Client with my Mentors [Karl Prieb](https://github.com/karlprieb) and [Guilhermme Gazzo](https://github.com/ggazzo).
+As I mentioned, Earlier in June (Sorry to take so long for this next post 😅), I got into Rocket.Chat after [this turnaround](http://otaku.codes/rocket-chat/summer-of-code/summer-coding-with-rocket-chat.html) and started laying out the plan for coding the React App for Rocket.Chat's Progressive Web App Client with my Mentors [Karl Prieb](https://github.com/karlprieb) and [Guilhermme Gazzo](https://github.com/ggazzo).
 
 Everything was going well (Atleast that is what I thought at that time, I didn't know what storm was brewing out there.)
 
@@ -33,7 +33,7 @@ But (there's always a but ), When I saw the list of methods and responses and su
 - Building, Somekind of wrapper to Abstract the RealTime API.
 - and Doing all the stuff simultaneously.
 
-That is when Karl told me to checkout, ***Rx (Reactive Extensions)*** for the Implementation. I did, and I was baffled 🌀🌀🌀 by the long chain of operators one after another, and the All new Reactive Programming Paradigm. 
+I asked Karl and he told me to checkout, ***Rx (Reactive Extensions)***. I did, and I was baffled 🌀🌀🌀 by the long chain of operators one after another, and the All new Reactive Programming Paradigm. 
 
 Watched some online conferences and I was surprised how little code in Rx could do stuff that required 100s of LOC in Callbacks.
 
