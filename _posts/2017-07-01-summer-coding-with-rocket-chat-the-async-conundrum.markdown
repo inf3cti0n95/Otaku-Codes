@@ -24,16 +24,16 @@ As I mentioned, Earlier in June (Sorry to take so long for this next post 😅),
 
 Everything was going well (Atleast that is what I thought at that time, I didn't know what storm was brewing out there.)
 
-I thought, how hard could it be to build a Chat Application. I went at it, initializing a pretty React App Starter of my own (I have a weird OCD of making things from scratch, that way I always know what is going on, with every line of code written). Finished this task of stater app easily, A piece of cake, then there was this next Card on trello board saying ***Implementation of Interface to Rocket.Chat's Realtime API*** for interactions with the Rocket.Chat's Server. I thought, "How hard Could it be?"
+I thought, how hard could it be to build a Chat Application. I went at it, initializing a pretty React App Starter of my own (I have a weird OCD of making things from scratch, that way I always know what is going on, with every line of code written). Finished this task of starter app easily, A piece of cake, then there was this next Card on trello board saying ***Implementation of Interface to Rocket.Chat's Realtime API*** for interactions with the Rocket.Chat's Server. I thought, "How hard Could it be?"
 
 But (there's always a but ), When I saw the list of methods and responses and subscriptions and events, I knew it isn't going to be a piece of cake.
 
-- Handling the Asynchronous Behaviour of Websockets.
+- Handling the Asynchronous Behaviour of WebSockets.
 - Building a Redux Middleware, that would handle the State of the App.
-- Building, Somekind of wrapper to Abstract the RealTime API.
+- Building somekind of wrapper to abstract the RealTime API.
 - and Doing all the stuff simultaneously.
 
-I asked Karl and he told me to checkout, ***Rx (Reactive Extensions)***. I did, and I was baffled 🌀🌀🌀 by the long chain of operators one after another, and the All new Reactive Programming Paradigm. 
+Karl asked me to checkout, ***Rx (Reactive Extensions)***. I did, and I was baffled 🌀🌀🌀 by the long chain of operators one after another, and the All new Reactive Programming Paradigm. 
 
 Watched some online conferences and I was surprised how little code in Rx could do stuff that required 100s of LOC in Callbacks.
 
@@ -42,7 +42,7 @@ Watched some online conferences and I was surprised how little code in Rx could 
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 
-#### What is Rx ?
+#### What is Rx?
 
 >
 > Think of RxJS as Lodash for events.
@@ -56,9 +56,9 @@ Rx sure has some learning curve but once you get your hands dirty with some Obse
 
 #### Rx + Redux + React 😍😍😍
 
-RxJS is pretty much the only thing needed for handling everthing, Angular 2 + has RxJS built in for everything, That's when I thought there must be something to couple Rx and React, and found out [***Redux Observables***](https://redux-observable.js.org/) ( the Three Ducks 🦆🦆🦆 ) Observables as guys from Rx like to call it.
+RxJS is pretty much the only thing needed for handling everything, Angular 2 + has RxJS built in for everything, That's when I thought there must be something to couple Rx and React, and found out [***Redux Observables***](https://redux-observable.js.org/) ( the Three Ducks 🦆🦆🦆 ) Observables as guys from Rx like to call it.
 
-***Redux Observables*** is a [Redux](http://redux.js.org/) middleware that solves managing states and the async behaviours with so called [***"Epics"***](https://redux-observable.js.org/docs/basics/Epics.html), an Epic is Stream of redux actions which returns a stream of actions. That sounds familiar, right ?. Yes, an Epic is an Observable of redux actions.
+***Redux Observables*** is a [Redux](http://redux.js.org/) middleware that solves managing states and the async behaviors with so called [***"Epics"***](https://redux-observable.js.org/docs/basics/Epics.html), an Epic is Stream of redux actions which return a stream of actions. That sounds familiar, right ?. Yes, an Epic is an Observable of redux actions.
 
 Redux-Observable makes handling states on the async actions slick !!!
 
@@ -67,4 +67,6 @@ Redux Observables was the last missing bit, I was searching for.
 Learning all the bits of RxJS and Redux Observables required, I made a wrapper to handle the Methods and Subscriptions of the Rocket.Chat's Real Time API, with help of mentors at Rocket.Chat published an npm package called [***Rocket.Chat.RealTime.API.RxJS***](https://www.npmjs.com/package/rocket.chat.realtime.api.rxjs) 🌈🌈🌈. 
 It's being used by Me and Other fellow Rocketeers in their projects.
 
- It's fun learning so many new things, I hope to learn a lot more in upcoming weeks. Wondering what kind of challenges are waiting ahead. I never give up... I never go back on my word... thats my ninja way!
+ It's fun learning so many new things, I hope to learn a lot more in upcoming weeks. Wondering what kind of challenges are waiting ahead. I never give up... I never go back on my word... that's my ninja way! #Naruto
+ 
+ Also posted on [Medium.com/OtakuCodes](https://medium.com/otakucodes/progressive-web-apps-web-apps-on-steroids-9575f6ffc4b5)
