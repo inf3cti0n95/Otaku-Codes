@@ -65,5 +65,6 @@ Redux-Observable makes handling states on the async actions slick !!!
 Redux Observables was the last missing bit, I was searching for.
 
 Learning all the bits of RxJS and Redux Observables required, I made a wrapper to handle the Methods and Subscriptions of the Rocket.Chat's Real Time API, with help of mentors at Rocket.Chat published an npm package called [***Rocket.Chat.RealTime.API.RxJS***](https://www.npmjs.com/package/rocket.chat.realtime.api.rxjs) 🌈🌈🌈. 
+It's being used by Me and Other fellow Rocketeers in their projects.
 
-Now, It's being used by Me and Other fellow Rocketeers in their projects. I am having a great time, learning so many new things and I hope to learn a lot more in coming weeks.
+ It's fun learning so many new things, I hope to learn a lot more in upcoming weeks. Wondering what kind of challenges are waiting ahead. I never give up... I never go back on my word... thats my ninja way!
