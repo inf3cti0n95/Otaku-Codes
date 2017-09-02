@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Summer Coding with Rocket.Chat - #1 | The Async Conundrum"
-date:   2017-07-01 16:00:00 +0530
+date:   2017-09-02 14:52:00 +0530
 categories: [Rocket-Chat, Summer-of-Code]
 hero_image: /assets/images/rcsoc2.png
 excerpt: "Summer Coding with Rocket.Chat- #1 | The Async Conundrum"
@@ -69,4 +69,4 @@ It's being used by Me and Other fellow Rocketeers in their projects.
 
  It's fun learning so many new things, I hope to learn a lot more in upcoming weeks. Wondering what kind of challenges are waiting ahead. I never give up... I never go back on my word... that's my ninja way! #Naruto
 
- *Also posted on [Medium.com/OtakuCodes](https://medium.com/otakucodes/summer-coding-with-rocket-chat-1-the-async-conundrum-b599d1a1bd9d)*
+ ***Also posted on [Medium.com/OtakuCodes](https://medium.com/otakucodes/summer-coding-with-rocket-chat-1-the-async-conundrum-b599d1a1bd9d)***
