@@ -69,4 +69,6 @@ It's being used by Me and Other fellow Rocketeers in their projects.
 
  It's fun learning so many new things, I hope to learn a lot more in upcoming weeks. Wondering what kind of challenges are waiting ahead. I never give up... I never go back on my word... that's my ninja way! #Naruto
 
+ ---
+
  ***Also posted on [Medium.com/OtakuCodes](https://medium.com/otakucodes/summer-coding-with-rocket-chat-1-the-async-conundrum-b599d1a1bd9d)***
