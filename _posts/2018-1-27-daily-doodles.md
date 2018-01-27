@@ -2,7 +2,7 @@
 layout: post
 title:  "Art Frenzy | Doodles, Sketches, Illustrations..."
 date:   2018-01-27 11:40:50 +0530
-categories: [Personal, Art]
+categories: [Art]
 hero_image: /assets/images/rcsoc2.png
 excerpt: "My comeback to the Sketching and Doodling. Drawing something Everyday."
 ---
