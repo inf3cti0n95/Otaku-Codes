@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Art Frenzy | Doodles, Sketches, Illustrations..."
+title:  "Art Frenzy | 100 Days of Daily Doodles"
 date:   2018-01-27 11:40:50 +0530
 categories: [Art]
 hero_image: /assets/images/rcsoc2.png
