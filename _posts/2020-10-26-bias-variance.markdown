@@ -2,7 +2,7 @@
 layout: post
 title:  "Types of Error in Models"
 date:   2020-10-26 20:00:00 +0530
-categories: [Data Science Basics, Bias, Variance, Error]
+categories: [Data-Science-Basics, Bias, Variance, Error]
 excerpt: "Introduction to Model Bias and Variance"
 
 ---
