@@ -7,11 +7,10 @@ excerpt: "Introduction to Model Bias and Variance"
 
 ---
 
-\begin{center}
+
 Total Error = Irreducible Error + Reducible Error
 
 Reducible Error = Bias + Variance
-\end{center}
 
 # Bias
 Bias are the simplifying assumptions made by a model to make the target function easier to learn.
@@ -35,3 +34,8 @@ You can see a general trend in the examples above:
 Linear machine learning algorithms often have a high bias but a low variance.
 Nonlinear machine learning algorithms often have a low bias but a high variance.
 The parameterization of machine learning algorithms is often a battle to balance out bias and variance.
+
+## References
+- https://machinelearningmastery.com/gentle-introduction-to-the-bias-variance-trade-off-in-machine-learning/#:~:text=Bias%20is%20the%20simplifying%20assumptions,the%20bias%20and%20the%20variance.
+- https://medium.com/datadriveninvestor/bias-and-variance-in-machine-learning-51fdd38d1f86
+- https://towardsdatascience.com/understanding-the-bias-variance-tradeoff-165e6942b229
