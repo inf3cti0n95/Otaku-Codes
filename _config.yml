@@ -17,4 +17,4 @@ plugins: [jekyll-paginate]
 # Details for the RSS feed generator
 url:            'http://otaku.codes'
 author:         'Viraj "Inf3cti0n95" Trivedi'
-authordesc: A Creative FrontEnd Developer, A BackEnd Developer with OCD for performance, An Artist, An Otaku.
+authordesc: An Artist, An Otaku obsessed with Data ✌️
